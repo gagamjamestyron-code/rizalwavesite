@@ -130,7 +130,5 @@
       });
     }, { rootMargin: '-35% 0px -45% 0px' });
     document.querySelectorAll('.timeline-item').forEach((item) => timelineObserver.observe(item));
-  } else {
-    revealTargets.forEach((element) => element.classList.add('is-visible'));
   }
 })();
